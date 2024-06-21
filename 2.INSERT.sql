@@ -8,6 +8,7 @@ INSERT INTO
         ciudad,
         provincia,
         codigo_postal,
+        telefono,
         email,
         sexo,
         fecha_nacimiento
@@ -21,6 +22,7 @@ VALUES
         'Ciudad Autónoma de Buenos Aires',
         'Buenos Aires',
         1425,
+        5487112225,
         'juan.perez@gmail.com',
         true,
         '1980-03-15'
@@ -33,6 +35,7 @@ VALUES
         'Rosario',
         'Santa Fe',
         2000,
+        549622255,
         'maria.gonzalez@gmail.com',
         false,
         '1975-07-22'
@@ -45,6 +48,7 @@ VALUES
         'Mendoza',
         'Mendoza',
         5500,
+        954847566,
         'carlos.lopez@gmail.com',
         true,
         '1990-11-11'
@@ -57,6 +61,7 @@ VALUES
         'La Plata',
         'Buenos Aires',
         1900,
+        541234567,
         'ana.martinez@gmail.com',
         false,
         '1985-05-05'
@@ -69,6 +74,7 @@ VALUES
         'Mar del Plata',
         'Buenos Aires',
         7600,
+        5423698741,
         'luis.fernandez@gmail.com',
         true,
         '1970-08-30'
@@ -81,6 +87,7 @@ VALUES
         'Tucumán',
         'Tucumán',
         4000,
+        542589754,
         'laura.garcia@gmail.com',
         false,
         '1995-12-20'
@@ -93,6 +100,7 @@ VALUES
         'San Juan',
         'San Juan',
         5400,
+        785214698,
         'jorge.diaz@gmail.com',
         true,
         '1983-02-18'
@@ -105,6 +113,7 @@ VALUES
         'Salta',
         'Salta',
         4400,
+        975614752,
         'silvia.torres@gmail.com',
         false,
         '1978-09-10'
@@ -117,6 +126,7 @@ VALUES
         'Resistencia',
         'Chaco',
         3500,
+        845697512,
         'fernando.sanchez@gmail.com',
         true,
         '1982-04-14'
@@ -129,6 +139,7 @@ VALUES
         'Posadas',
         'Misiones',
         3300,
+        184652347,
         'patricia.ramirez@gmail.com',
         false,
         '1971-06-25'

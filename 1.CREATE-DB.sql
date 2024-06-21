@@ -11,6 +11,7 @@ create table PACIENTE (
     direccion varchar(45),
     ciudad varchar(45),
     provincia varchar(45),
+    telefono int,
     codigo_postal int,
     email varchar(45),
     sexo tinyint,
@@ -22,7 +23,7 @@ create table MEDICO (
     dni int unique not null primary key,
     nombre varchar(45),
     apellidos varchar(45),
-    telefono bigint,
+    telefono int,
     email varchar(45),
     matricula_medica int unique not null,
     especialidad varchar(45)
